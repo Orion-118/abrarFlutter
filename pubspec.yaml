@@ -1,0 +1,51 @@
+name: green_cycle
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  go_router: ^14.1.4
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+  flutter_animate: ^4.5.0
+  carousel_slider: ^4.2.1
+  video_player: ^2.8.6
+  lottie: ^3.1.2
+  camera: ^0.11.0+1
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.3
+  slide_to_act: ^2.0.2
+  flutter_svg: ^2.0.10+1
+  page_transition: ^2.1.0
+  fl_chart: ^0.68.0
+  awesome_snackbar_content: ^0.1.3
+  quickalert: ^1.1.0
+  icons_launcher: ^2.1.7
+  modal_bottom_sheet: ^3.0.0
+  dart_format: ^1.1.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/icons/
+    - lib/assets/images/
+    - lib/assets/videos/
+    - lib/assets/animations/
